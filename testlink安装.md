@@ -21,6 +21,12 @@
 
 2.解压testlink-1.9.15.tar.gz,将解压后的文件夹拷贝到xampp文件夹下面的htdocs文件夹里，然后再浏览器中输入`http://localhost:80/testlink-1.9.15`可以访问testlink
 ![](/assets/101527451655203.jpg)
-点击**new installation**
-
+点击**new installation** 弹出如下界面
 ![](/assets/QQ截图20160921170123.png)
+![](/assets/QQ截图20160921170138.png)
+![](/assets/QQ截图20160921170238.png)
+注意，此步骤报如下错误
+```
+Checking if /var/testlink/logs/ directory exists [S]	Failed!
+Checking if /var/testlink/upload_area/ directory exists [S]	Failed!
+```
