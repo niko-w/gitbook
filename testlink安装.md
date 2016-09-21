@@ -1,4 +1,4 @@
-![](/assets/QQ截图20160921171918.png)&gt; Testlink是测试用例管理工具，可以和jira集成
+``![](/assets/QQ截图20160921171918.png)&gt; Testlink是测试用例管理工具，可以和jira集成
 
 > TestLink 是基于web的测试用例管理系统，主要功能是测试用例的创建、管理和执行，并且还提供了一些简单的统计功能。
 
@@ -23,7 +23,8 @@
 点击图片中mysql条目后面的Admin,进入如下的界面
 ![](/assets/QQ截图20160921184745.png)
 在这里设置mysql的root用户密码
-
+`UPDATE mysql.user SET password=PASSWORD(900923) WHERE user='root';`
+设置完之后，pshAdmin界面无法访问mysql了，此时需要更改D:\xampp\phpMyAdmin\config.inc.php
 
 2.解压testlink-1.9.15.tar.gz,将解压后的文件夹拷贝到xampp文件夹下面的htdocs文件夹里，然后再浏览器中输入`http://localhost:80/testlink-1.9.15`可以访问testlink
 ![](/assets/101527451655203.jpg)
