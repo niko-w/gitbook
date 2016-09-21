@@ -1,4 +1,5 @@
-![](/assets/QQ截图20160921171918.png)> Testlink是测试用例管理工具，可以和jira集成
+![](/assets/QQ截图20160921171918.png)&gt; Testlink是测试用例管理工具，可以和jira集成
+
 > TestLink 是基于web的测试用例管理系统，主要功能是测试用例的创建、管理和执行，并且还提供了一些简单的统计功能。
 
 ### window10下搭建Testlink
@@ -43,9 +44,12 @@ $tlCfg->log_path = 'D:/xampp/htdocs/testlink-1.9.15/logs/';
 //$g_repositoryPath = '/var/testlink/upload_area/';  /* unix example */注释掉，修改为如下的内容
 $g_repositoryPath = 'D:/xampp/htdocs/testlink-1.9.15/upload_area/';
 ```
+
 修改完后，重新加载testlink的界面，如下：
 ![](/assets/QQ截图20160921171703.png)
 
+然后再新的页面中设置mysql的用户名及密码
 ![](/assets/QQ截图20160921171844.png)
 ![](/assets/QQ截图20160921171907.png)
 ![](/assets/QQ截图20160921171918.png)
+
