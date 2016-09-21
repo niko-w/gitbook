@@ -16,4 +16,5 @@
 #### 开始
 
 安装xampp
-安装后，再安装文件夹中启动xampp-control.exe
+安装后，在安装文件夹中启动xampp-control.exe，然后再弹出的对话框中启动mysql,apache,tomcat等等
+
