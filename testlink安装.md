@@ -29,7 +29,7 @@
 /* Authentication type and info */
 $cfg['Servers'][$i]['auth_type'] = 'config';
 $cfg['Servers'][$i]['user'] = 'root';
-$cfg['Servers'][$i]['password'] = '900923';
+$cfg['Servers'][$i]['password'] = '900923';//原来这是是空字符，后面改成了刚刚设置的密码，然后就可以访问mysql了
 $cfg['Servers'][$i]['extension'] = 'mysqli';
 $cfg['Servers'][$i]['AllowNoPassword'] = true;
 $cfg['Lang'] = '';
