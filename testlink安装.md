@@ -26,7 +26,13 @@
 ![](/assets/QQ截图20160921170138.png)
 ![](/assets/QQ截图20160921170238.png)
 注意，此步骤报如下错误
+
 ```
-Checking if /var/testlink/logs/ directory exists [S]	Failed!
-Checking if /var/testlink/upload_area/ directory exists [S]	Failed!
+Checking if /var/testlink/logs/ directory exists [S]    Failed!
+Checking if /var/testlink/upload_area/ directory exists [S]    Failed!
+```
+修改D:\xampp\htdocs\testlink-1.9.15\config.inc.php中的内容
+```
+//$g_repositoryPath = '/var/testlink/upload_area/';  /* unix example */
+$g_repositoryPath = 'D:/xampp/htdocs/testlink-1.9.15/upload_area/';
 ```
