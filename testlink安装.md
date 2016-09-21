@@ -1,5 +1,4 @@
-``![](/assets/QQ截图20160921171918.png)&gt; Testlink是测试用例管理工具，可以和jira集成
-
+>Testlink是测试用例管理工具，可以和jira集成
 > TestLink 是基于web的测试用例管理系统，主要功能是测试用例的创建、管理和执行，并且还提供了一些简单的统计功能。
 
 ### window10下搭建Testlink
@@ -25,6 +24,7 @@
 在这里设置mysql的root用户密码
 `UPDATE mysql.user SET password=PASSWORD(900923) WHERE user='root';`
 设置完之后，pshAdmin界面无法访问mysql了，此时需要更改D:\xampp\phpMyAdmin\config.inc.php中的内容
+
 ```
 /* Authentication type and info */
 $cfg['Servers'][$i]['auth_type'] = 'config';
