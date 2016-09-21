@@ -17,6 +17,7 @@
 
 1.安装xampp
 安装后，在安装文件夹中启动xampp-control.exe，然后再弹出的对话框中启动mysql,apache,tomcat等等
-![](/assets/QQ截图20160921164926.png)>
+![](/assets/QQ截图20160921164926.png)&gt;
 
 2.解压testlink-1.9.15.tar.gz,将解压后的文件夹拷贝到xampp文件夹下面的htdocs文件夹里，然后再浏览器中输入`http://localhost:80/testlink-1.9.15`可以访问testlink
+![](/assets/101527451655203.jpg)
