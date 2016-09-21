@@ -17,7 +17,7 @@
 
 1.安装xampp
 安装后，在安装文件夹中启动xampp-control.exe，然后再弹出的对话框中启动mysql,apache,tomcat等等
-![](/assets/QQ截图20160921164926.png)&gt;
+![](/assets/QQ截图20160921164926.png)
 
 点击图片中mysql条目后面的Admin,进入如下的界面
 ![](/assets/QQ截图20160921184745.png)
