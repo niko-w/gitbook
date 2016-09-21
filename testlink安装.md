@@ -11,3 +11,5 @@
 2.下载testlink
 [https://sourceforge.net/projects/testlink/files/TestLink%201.9/TestLink%201.9.15/testlink-1.9.15.tar.gz/download](https://sourceforge.net/projects/testlink/files/TestLink%201.9/TestLink%201.9.15/testlink-1.9.15.tar.gz/download)
 
+####开始
+安装xampp
