@@ -31,13 +31,17 @@
 Checking if /var/testlink/logs/ directory exists [S]    Failed!
 Checking if /var/testlink/upload_area/ directory exists [S]    Failed!
 ```
+
 修改D:\xampp\htdocs\testlink-1.9.15\config.inc.php中的内容
 
 ```
 //$tlCfg->log_path = '/var/testlink/logs/'; /* unix example */注释掉，修改为如下的内容
 $tlCfg->log_path = 'D:/xampp/htdocs/testlink-1.9.15/logs/';
 ```
+
 ```
 //$g_repositoryPath = '/var/testlink/upload_area/';  /* unix example */注释掉，修改为如下的内容
 $g_repositoryPath = 'D:/xampp/htdocs/testlink-1.9.15/upload_area/';
 ```
+修改完后，重新加载testlink的界面，如下：
+![](/assets/QQ截图20160921171703.png)
