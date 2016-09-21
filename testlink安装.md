@@ -70,3 +70,16 @@ $g_repositoryPath = 'D:/xampp/htdocs/testlink-1.9.15/upload_area/';
 
 安装成功
 ![](/assets/QQ截图20160921185903.png)
+
+```
+<!-- Template jiradbInterface --> 
+<issuetracker> 
+<username>wangq</username> 
+<password>1111</password> 
+<uribase>http://113.108.186.130:11009</uribase> 
+<uriapi>http://113.108.186.130:11009</uriapi> 
+<uriview>http://113.108.186.130:11009/browse</uriview> 
+<projectkey>UDAL</projectkey> 
+<issuetype>1</issuetype> 
+</issuetracker> 
+```
