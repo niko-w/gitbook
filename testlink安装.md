@@ -23,3 +23,4 @@
 ![](/assets/101527451655203.jpg)
 点击**new installation**
 
+![](/assets/QQ截图20160921170123.png)
