@@ -47,3 +47,4 @@ $g_repositoryPath = 'D:/xampp/htdocs/testlink-1.9.15/upload_area/';
 ![](/assets/QQ截图20160921171703.png)
 
 ![](/assets/QQ截图20160921171844.png)
+![](/assets/QQ截图20160921171907.png)
