@@ -1,4 +1,4 @@
-![](/assets/QQ截图20160921164926.png)> Testlink是测试用例管理工具，可以和jira集成
+> Testlink是测试用例管理工具，可以和jira集成
 > TestLink 是基于web的测试用例管理系统，主要功能是测试用例的创建、管理和执行，并且还提供了一些简单的统计功能。
 
 ### window10下搭建Testlink
@@ -17,4 +17,5 @@
 
 安装xampp
 安装后，在安装文件夹中启动xampp-control.exe，然后再弹出的对话框中启动mysql,apache,tomcat等等
+![](/assets/QQ截图20160921164926.png)>
 
