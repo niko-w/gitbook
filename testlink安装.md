@@ -15,7 +15,8 @@
 
 #### 开始
 
-安装xampp
+1.安装xampp
 安装后，在安装文件夹中启动xampp-control.exe，然后再弹出的对话框中启动mysql,apache,tomcat等等
 ![](/assets/QQ截图20160921164926.png)>
 
+2.解压
