@@ -24,7 +24,16 @@
 ![](/assets/QQ截图20160921184745.png)
 在这里设置mysql的root用户密码
 `UPDATE mysql.user SET password=PASSWORD(900923) WHERE user='root';`
-设置完之后，pshAdmin界面无法访问mysql了，此时需要更改D:\xampp\phpMyAdmin\config.inc.php
+设置完之后，pshAdmin界面无法访问mysql了，此时需要更改D:\xampp\phpMyAdmin\config.inc.php中的内容
+```
+/* Authentication type and info */
+$cfg['Servers'][$i]['auth_type'] = 'config';
+$cfg['Servers'][$i]['user'] = 'root';
+$cfg['Servers'][$i]['password'] = '900923';
+$cfg['Servers'][$i]['extension'] = 'mysqli';
+$cfg['Servers'][$i]['AllowNoPassword'] = true;
+$cfg['Lang'] = '';
+```
 
 2.解压testlink-1.9.15.tar.gz,将解压后的文件夹拷贝到xampp文件夹下面的htdocs文件夹里，然后再浏览器中输入`http://localhost:80/testlink-1.9.15`可以访问testlink
 ![](/assets/101527451655203.jpg)
