@@ -1,7 +1,8 @@
 > Testlink是测试用例管理工具，可以和jira集成
 > TestLink 是基于web的测试用例管理系统，主要功能是测试用例的创建、管理和执行，并且还提供了一些简单的统计功能。
 
-###前言
+### 前言
+
 测试管理工具，是指用工具对软件的整个测试输入、执行过程和测试结果进行管理的过程。可以提高回归测试的效率、大幅提升测试时间、测试质量、用例复用、需求覆盖等。
 
 TestLink用于进行测试过程中的管理，通过使用TestLink提供的功能，可以将测试过程从测试需求、测试设计到测试执行完整地管理起来，同时，它还提供了多种测试结果的统计和分析，使我们能够简单地开始测试工作和分析测试结果。而且，TestLink可以关联多种bug跟踪系统，如Bugzilla、mantis和Jira、readme.
@@ -84,7 +85,7 @@ $g_repositoryPath = 'D:/xampp/htdocs/testlink-1.9.15/upload_area/';
 ![](/assets/QQ截图20160921171907.png)
 ![](/assets/QQ截图20160921171918.png)
 
-安装成功，点击下图的红色部分，访问testlink，用户名和密码均为admin
+安装成功，点击下图的红色部分，访问testlink`http://localhost/testlink-1.9.15/login.php`，用户名和密码均为admin
 ![](/assets/QQ截图20160921185903.png)
 
 ```
