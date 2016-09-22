@@ -11,12 +11,14 @@
 
 > XAMPP（Apache+MySQL+PHP+PERL）是一个功能强大的建站集成软件包。这个软件包原来的名字是 LAMPP，但是为了避免误解，最新的几个版本就改名为 XAMPP 了。它可以在Windows、Linux、Solaris、Mac OS X 等多种操作系统下安装使用，支持多语言：英文、简体中文、繁体中文、韩文、俄文、日文等
 
-######2.下载testlink-1.9.15.tar.gz
+###### 2.下载testlink-1.9.15.tar.gz
+
 [https:\/\/sourceforge.net\/projects\/testlink\/files\/TestLink%201.9\/TestLink%201.9.15\/testlink-1.9.15.tar.gz\/download](https://sourceforge.net/projects/testlink/files/TestLink%201.9/TestLink%201.9.15/testlink-1.9.15.tar.gz/download)
 
 #### 开始
 
-######1.安装xampp
+###### 1.安装xampp
+
 安装后，在安装文件夹中启动xampp-control.exe，然后再弹出的对话框中启动mysql,apache,tomcat等等
 ![](/assets/QQ截图20160921164926.png)
 
@@ -66,7 +68,7 @@ $g_repositoryPath = 'D:/xampp/htdocs/testlink-1.9.15/upload_area/';
 修改完后，重新加载testlink的界面，如下：
 ![](/assets/QQ截图20160921171703.png)
 
-然后再新的页面中设置mysql的用户名及密码
+然后再新的页面中设置mysql的用户名及密码，其中database admin为刚刚设置的mysql数据库的用户名和密码，testlink db的用户名和密码可以随意设置
 ![](/assets/QQ截图20160921171844.png)
 ![](/assets/QQ截图20160921171907.png)
 ![](/assets/QQ截图20160921171918.png)
