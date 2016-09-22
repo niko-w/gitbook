@@ -5,7 +5,7 @@
 
 #### 准备工作
 
-1.下载xampp
+######1.下载xampp
 [https:\/\/sourceforge.net\/projects\/xampp\/files\/latest\/download](https://sourceforge.net/projects/xampp/files/latest/download)
 
 > XAMPP（Apache+MySQL+PHP+PERL）是一个功能强大的建站集成软件包。这个软件包原来的名字是 LAMPP，但是为了避免误解，最新的几个版本就改名为 XAMPP 了。它可以在Windows、Linux、Solaris、Mac OS X 等多种操作系统下安装使用，支持多语言：英文、简体中文、繁体中文、韩文、俄文、日文等
@@ -35,7 +35,7 @@ $cfg['Servers'][$i]['AllowNoPassword'] = true;
 $cfg['Lang'] = '';
 ```
 
-####2.安装testlink
+######2.安装testlink
 解压testlink-1.9.15.tar.gz,将解压后的文件夹拷贝到xampp文件夹下面的htdocs文件夹里，然后再浏览器中输入`http://localhost:80/testlink-1.9.15`可以访问testlink
 ![](/assets/101527451655203.jpg)
 点击**new installation** 弹出如下界面
