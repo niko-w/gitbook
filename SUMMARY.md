@@ -10,6 +10,7 @@
         * [语法](语法.md)
     * [testLink](testlink.md)
         * [TestLink安装](testlink安装.md)
+        * [TestLink与JIRA集成](testlink与jira集成.md)
 * [学习新内容](学习新内容.md)
     * [1](1.md)
 
