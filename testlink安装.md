@@ -73,7 +73,7 @@ $g_repositoryPath = 'D:/xampp/htdocs/testlink-1.9.15/upload_area/';
 ![](/assets/QQ截图20160921171907.png)
 ![](/assets/QQ截图20160921171918.png)
 
-安装成功
+安装成功，点击下图的红色部分，访问testlink，用户名和密码均为admin
 ![](/assets/QQ截图20160921185903.png)
 
 ```
