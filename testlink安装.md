@@ -35,7 +35,8 @@ $cfg['Servers'][$i]['AllowNoPassword'] = true;
 $cfg['Lang'] = '';
 ```
 
-2.解压testlink-1.9.15.tar.gz,将解压后的文件夹拷贝到xampp文件夹下面的htdocs文件夹里，然后再浏览器中输入`http://localhost:80/testlink-1.9.15`可以访问testlink
+####2.安装testlink
+解压testlink-1.9.15.tar.gz,将解压后的文件夹拷贝到xampp文件夹下面的htdocs文件夹里，然后再浏览器中输入`http://localhost:80/testlink-1.9.15`可以访问testlink
 ![](/assets/101527451655203.jpg)
 点击**new installation** 弹出如下界面
 ![](/assets/QQ截图20160921170123.png)
@@ -72,14 +73,15 @@ $g_repositoryPath = 'D:/xampp/htdocs/testlink-1.9.15/upload_area/';
 ![](/assets/QQ截图20160921185903.png)
 
 ```
-<!-- Template jiradbInterface --> 
-<issuetracker> 
-<username>wangq</username> 
-<password>1111</password> 
-<uribase>http://113.108.186.130:11009</uribase> 
-<uriapi>http://113.108.186.130:11009</uriapi> 
-<uriview>http://113.108.186.130:11009/browse</uriview> 
-<projectkey>UDAL</projectkey> 
-<issuetype>1</issuetype> 
-</issuetracker> 
+<!-- Template jiradbInterface --> 
+<issuetracker> 
+<username>wangq</username> 
+<password>1111</password> 
+<uribase>http://113.108.186.130:11009</uribase> 
+<uriapi>http://113.108.186.130:11009</uriapi> 
+<uriview>http://113.108.186.130:11009/browse</uriview> 
+<projectkey>UDAL</projectkey> 
+<issuetype>1</issuetype> 
+</issuetracker> 
 ```
+
