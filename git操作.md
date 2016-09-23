@@ -25,5 +25,8 @@ git branch -a  //查看所有分支
 说明在git bash中的pull没有更新到本地
 
 #####3.打分支，并查看
-`git tag -a 1.2.2_2 -m 'gateway版本1.2.2_2'`
+```
+git tag -a 1.2.2_2 -m 'gateway版本1.2.2_2'//打标签1.2.2_2
+git tag //查看分支
+```
 
