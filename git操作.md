@@ -62,5 +62,6 @@ git checkout master
 ![](/assets/QQ截图20160923164750.png)
 
 #####3.将本地master分支推送到远程
+**重要**步骤2合并之后，只是将本地分支的内容合并到本地master分支上，而远程上的master分支并没有更新，所以需要将本地master分支推动到远程
 `git push origin master`
 ![](/assets/QQ截图20160923165014.png)
