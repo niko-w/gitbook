@@ -1,3 +1,6 @@
+### 新建分支
+
+
 ### 打标签tag
 
 以gateway的紧急修复版本hotfix-1.2.2\_2为例
@@ -49,26 +52,33 @@ git show 1.2.2_2//查看新打的分支的内容，是否与远程分支上一�
 以gateway的紧急修复版本hotfix-1.2.2\_2为例
 当在分支hotfix-1.2.2\_2上打完标签后，需要将次分支合并到稳点分支master上，并且删除此分支
 
-#####1.查看现有的分支，并切换到master分支上
+##### 1.查看现有的分支，并切换到master分支上
+
 ```
 git branch
 git branch -r
 git branch -a
 git checkout master
 ```
+
 ![](/assets/QQ截图20160923164614.png)
 
-#####2.合并分支hotfix-1.2.2_2到master分支
+##### 2.合并分支hotfix-1.2.2\_2到master分支
+
 ![](/assets/QQ截图20160923164750.png)
 
-#####3.将本地master分支推送到远程
+##### 3.将本地master分支推送到远程
+
 **重要**步骤2合并之后，只是将本地分支的内容合并到本地master分支上，而远程上的master分支并没有更新，所以需要将本地master分支推动到远程
 `git push origin master`
 ![](/assets/QQ截图20160923165014.png)
 
-#####4.删除本地分支和远程分支
+##### 4.删除本地分支和远程分支
+
 ```
 git branch -d hotfix-1.2.2_2 //删除本地分支
 git branch :hotfix-1.2.2_2  //删除远程分支
 ```
+
 ![](/assets/QQ截图20160923165528.png)
+
