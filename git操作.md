@@ -17,3 +17,7 @@ git branch -a  //查看所有分支
 `git pull`
 或者使用工具TortoisetGit上的pull来拉取（我使用的是这种，感觉他更靠谱一点）
 
+疑问：
+在git bash中git pull之后，再使用工具TortoisetGit上的pull，不会显示是最新的，而是会在pull一次？？
+说明在git bash中的pull没有更新到本地
+
