@@ -56,4 +56,4 @@ git branch -r
 git branch -a
 git checkout master
 ```
-
+![](/assets/QQ截图20160923164614.png)
