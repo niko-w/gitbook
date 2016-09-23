@@ -71,3 +71,4 @@ git checkout master
 git branch -d hotfix-1.2.2_2
 git branch :hotfix-1.2.2_2
 ```
+![](/assets/QQ截图20160923165528.png)
