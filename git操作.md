@@ -29,4 +29,5 @@ git branch -a  //查看所有分支
 git tag -a 1.2.2_2 -m 'gateway版本1.2.2_2'//打标签1.2.2_2
 git tag //查看分支
 ```
+![](/assets/QQ截图20160923163108.png)
 
