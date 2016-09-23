@@ -12,3 +12,4 @@ git branch -a  //查看所有分支
 `git checkout hotfix-1.2.2_2`
 
 最重要的，要先pull，让本地分支上的内容和远程上同的内容保持一致
+`git pull`
