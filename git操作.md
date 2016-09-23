@@ -24,5 +24,5 @@ git branch -a  //查看所有分支
 在git bash中git pull之后，再使用工具TortoisetGit上的pull，不会显示是最新的，而是会在pull一次？？
 说明在git bash中的pull没有更新到本地
 
-#####3.
+#####3.打分支，并查看
 
