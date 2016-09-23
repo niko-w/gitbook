@@ -56,12 +56,18 @@ git show 1.2.2_2//查看新打的分支的内容，是否与远程分支上一�
 
 ![](/assets/QQ截图20160923163958.png)
 
-###删除tag
+### 删除tag
+
 如果打完标签后，发现有错误，即使已经推送到远程后，也可以删除标签
+
 ```
 git tag -d 1.2.2_2 //删除刚刚打的本地标签
 git push origin :refs/tags/1.2.2_2  //删除远程的标签 
 ```
+事实上Git 的推送和删除远程标签命令是相同的，删除操作实际上就是推送空的源标签refs：
+`git push origin 标签名`
+相当于
+`git push origin refs/tags/源标签名:refs/tags/目的标签名`
 
 ### 合并删除分支
 
