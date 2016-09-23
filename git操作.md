@@ -60,3 +60,7 @@ git checkout master
 
 #####2.合并分支hotfix-1.2.2_2到master分支
 ![](/assets/QQ截图20160923164750.png)
+
+#####3.将本地master分支推送到远程
+`git push origin master`
+![](/assets/QQ截图20160923165014.png)
