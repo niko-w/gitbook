@@ -1,6 +1,12 @@
 ### 根据tag创建新分支
-gateway需要建立紧急修复，需要建立分支hotfix-1.2.2_2
+
+gateway需要建立紧急修复，需要根据tag1.2.2\_1建立分支hotfix-1.2.2\_2
+
 ```
+git origin fetch //获得最新
+git branch hotfix-1.2.2_2 1.2.2_1 //git branch <new_branch_name> <tag_name>
+git checkout hotfix-1.2.2_2  //切换到新分支上
+git push origin hotfix-1.2.2_2  //将本地创建的分支推送到远程上，现在远程上也会有新的分支了
 
 ```
 
@@ -49,6 +55,10 @@ git show 1.2.2_2//查看新打的分支的内容，是否与远程分支上一�
 ##### 5.在远程仓库上查看新打的分支
 
 ![](/assets/QQ截图20160923163958.png)
+
+###删除tag
+如果打完标签后，发现有错误，即使已经推送到远程后，也可以删除标签
+
 
 ### 合并删除分支
 
