@@ -66,4 +66,5 @@ git checkout master
 `git push origin master`
 ![](/assets/QQ截图20160923165014.png)
 
-#####4.
+#####4.删除本地分支和远程分支
+
