@@ -50,4 +50,10 @@ git show 1.2.2_2//查看新打的分支的内容，是否与远程分支上一�
 当在分支hotfix-1.2.2\_2上打完标签后，需要将次分支合并到稳点分支master上，并且删除此分支
 
 #####1.查看现有的分支，并切换到master分支上
+```
+git branch
+git branch -r
+git branch -a
+git checkout master
+```
 
