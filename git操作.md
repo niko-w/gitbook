@@ -59,3 +59,4 @@ git checkout master
 ![](/assets/QQ截图20160923164614.png)
 
 #####2.合并分支hotfix-1.2.2_2到master分支
+![](/assets/QQ截图20160923164750.png)
