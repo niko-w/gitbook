@@ -68,7 +68,7 @@ git checkout master
 
 #####4.删除本地分支和远程分支
 ```
-git branch -d hotfix-1.2.2_2
-git branch :hotfix-1.2.2_2
+git branch -d hotfix-1.2.2_2 //删除本地分支
+git branch :hotfix-1.2.2_2  //删除远程分支
 ```
 ![](/assets/QQ截图20160923165528.png)
