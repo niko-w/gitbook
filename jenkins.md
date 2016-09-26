@@ -3,8 +3,8 @@
 * 100 ctg-udal-admin-test 管理平台（测试版）
 * 101 ctg-udal-admin-release 管理平台（发布版）
 * 102 ctg-udal-admin-deploy 管理平台版本发布
-4. ctg-uadl-dbproxy-functest dbproxy功能测试
-5. ctg-udal-giserver-functest giserver功能测试
+4. 200 ctg-uadl-dbproxy-functest dbproxy功能测试
+5. 201 ctg-udal-giserver-functest giserver功能测试
 6. ctg-udal-dbproxy-deploy dbproxy版本发布
 7. ctg-udal-giserver-deploy giserver版本发布
 8. ctg-udal-perftest-deploy 性能测试版本发布
