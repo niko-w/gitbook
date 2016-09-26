@@ -16,6 +16,7 @@
     * [规划](规划.md)
 * [Test](test.md)
     * [自动化测试](自动化测试.md)
+    * [jenkins](jenkins.md)
 * [Git](git.md)
     * [Git操作](git操作.md)
 
