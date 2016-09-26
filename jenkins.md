@@ -10,5 +10,7 @@
 * 302 ctg-udal-dbproxy-sqlparser打包
 * 400 ctg-udal-perftest-deploy 性能测试版本发布
 * 401 ctg-udal-loadbalance-deploy 负载均衡版本发布
-* ctg-udal-gateway-deploygateway 版本发布
+* 402 ctg-udal-gateway-deploy gateway 版本发布
+* 1001
+* 1002
 
