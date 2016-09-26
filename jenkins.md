@@ -7,7 +7,7 @@
 * 201 ctg-udal-giserver-functest giserver功能测试
 * 300 ctg-udal-dbproxy-deploy dbproxy版本发布
 * 301 ctg-udal-giserver-deploy giserver版本发布
-* 302 ctg-udal-
+* 302 ctg-udal-dbproxy-sqlparser打包
 * ctg-udal-perftest-deploy 性能测试版本发布
 9. ctg-udal-loadbalance-deploy 负载均衡版本发布
 10. ctg-udal-gateway-deploygateway 版本发布
