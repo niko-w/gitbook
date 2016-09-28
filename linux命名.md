@@ -1,7 +1,10 @@
-##### 基本命令
+### 基本命令
 
-###### tail
+#### tail
 > tail命令从文件指定点开始将文件写到标准输出流，使用**tail命令的-f选项**可以方便的查阅正在改变的日志文件,`tail -f filename`会把filename里最尾部的内容显示在屏幕上,并且不但刷新,使你看到最新的文件内容.
+
+##### 命令格式
+`tail [ -f ] [ -c Number | -n Number | -m Number | -b Number | -k Number ] [ File ]`
 
 
 
