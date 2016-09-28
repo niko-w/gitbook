@@ -15,7 +15,7 @@
     * [Git](git.md)
         * [Git操作](git操作.md)
     * [Linux](linux命令.md)
-        * [linux命名](linux命名.md)
+        * [linux命令](linux命名.md)
 * [学习新内容](学习新内容.md)
     * [规划](规划.md)
 * [Test](test.md)
