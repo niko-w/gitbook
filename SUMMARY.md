@@ -27,6 +27,8 @@
     * [遇到的问题](遇到的问题.md)
 * [MySql](mysql.md)
     * [Mysql知识点](mysql知识点.md)
+        * [索引](索引.md)
+        * [连接池](连接池.md)
 * [dbproxy](dbproxy.md)
     * [功能](功能.md)
 
