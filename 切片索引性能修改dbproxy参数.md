@@ -8,4 +8,6 @@
 * processorExecutor         线程池大小 Processors*8
 
 
-
+#### 根据分片键cust_id查询数据的效率
+* 一台jmeter，查询300W次，TPS：14879.5
+![](/assets/QQ截图20160929175523.png)
