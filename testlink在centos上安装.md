@@ -38,6 +38,7 @@ Policy from config file:        targeted
 
 * 查看是否安装了Apache软件
   `rpm -qa|grep httpd`
+
   ```
   [root@localhost niko]# rpm -qa|grep httpd
   httpd-tools-2.2.15-53.el6.centos.x86_64
@@ -46,10 +47,18 @@ Policy from config file:        targeted
 
 * 启动Apache软件
   `service httpd start`
+
   ```
   [root@localhost niko]# service httpd start
   Starting httpd: httpd: Could not reliably determine the server's fully qualified domain name, using localhost.localdomain for ServerName
                                                        [  OK  ]
-```
-在浏览器中输入[http:\/\/虚拟机IP\/](http://虚拟机IP/) 能显示Apahce的欢迎界面
+  ```
 
+  在浏览器中输入[http:\/\/虚拟机IP\/](http://虚拟机IP/) 能显示Apahce的欢迎界面
+
+
+##### 2、追加CentOS 6.5的epel及remi源
+```
+rpm -Uvh http://mirrors.ustc.edu.cn/fedora/epel/6/x86_64/epel-release-6-8.noarch.rpm
+rpm -Uvh http://rpms.famillecollet.com/enterprise/remi-release-6.rpm
+```
