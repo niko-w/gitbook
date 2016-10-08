@@ -32,5 +32,40 @@ tail可运行文件一般在\/usr\/bin\/以下。
   `lsb_release -a`
   ![](/assets/QQ截图20161008090405.png)
 
-#### CentOS上安装lsb_release命令
+#### CentOS上安装lsb\_release命令
 
+lsb\_release命令用来查看当前系统的发行版信息（prints certain LSB \(Linux Standard Base\) and Distribution information.）。有了这个命令就可以清楚的知道到底是RedHat的、还是别的发行版，还有具体的版本号，比如3.4还是5.4等等。
+1、查看哪个源包含这个命令
+`yum provides */lsb_release`
+
+```
+[root@localhost niko]# yum provides */lsb_release
+Loaded plugins: fastestmirror, refresh-packagekit, security
+Determining fastest mirrors
+ * base: centos.ustc.edu.cn
+ * extras: centos.ustc.edu.cn
+ * updates: centos.ustc.edu.cn
+base                                                                               
+extras                                                                             
+mariadb                                                                            
+updates                                                                            
+updates/primary_db                                                                 
+updates/filelists_db                                                               
+redhat-lsb-core-4.0-7.el6.centos.i686 : LSB base libraries support for CentOS
+Repo        : base
+Matched from:
+Filename    : /usr/bin/lsb_release
+
+
+
+redhat-lsb-core-4.0-7.el6.centos.x86_64 : LSB base libraries support for CentOS
+Repo        : base
+Matched from:
+Filename    : /usr/bin/lsb_release
+
+
+```
+2、安装包含该命令的包
+从上面的输出可以看到redhat-lsb-core-4.0-7.el6.centos.i686和redhat-lsb-core-4.0-7.el6.centos.x86_64这两个package包含这个命令，那就安装这两个包中的任意一个即可。
+
+3、测试命令是否安装成功
