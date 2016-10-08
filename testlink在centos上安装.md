@@ -132,4 +132,4 @@ Bye
 * 解压phpmyadmin
 `tar -zxvf phpMyAdmin-3.5.7-all-languages.tar`
 * 将解压后的文件夹改名为phpMyAdmin
-* 
+* 将
