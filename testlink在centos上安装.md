@@ -125,4 +125,4 @@ MariaDB [(none)]> exit
 Bye
 
 ```
-
+* 由于本系统上安装有MariaDB,所以安装mysql时不成功
