@@ -125,6 +125,9 @@ MariaDB [(none)]> exit
 Bye
 
 ```
+
 * 由于本系统上安装有MariaDB,所以安装mysql时不成功
 
 ##### 5、安装phpMyAdmin
+* 解压phpmyadmin
+`tar -zxvf phpMyAdmin-3.5.7-all-languages.tar`
