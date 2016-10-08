@@ -135,3 +135,5 @@ Bye
 * 将phpMyAdmin拷贝到文件夹`/var/www/html`下
 * 进入到phpMyAdmin文件夹下，执行下列命令
 `cp config.sample.inc.php config.inc.php  `
+* 修改html文件的权限
+`chmod 777 /var/www/html/`
