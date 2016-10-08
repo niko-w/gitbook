@@ -15,7 +15,6 @@
   Policy from config file:        targeted
   ```
 
-
 1、临时关闭可以执行`setenforce 0`
 此时状态入下：
 
