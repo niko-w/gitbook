@@ -30,6 +30,7 @@ tail可运行文件一般在\/usr\/bin\/以下。
   `cat /etc/issue`
 * 适用于所有的linux，包括Redhat、SuSE、Debian等发行版，但是在debian下要安装lsb
   `lsb_release -a`
-![](/assets/QQ截图20161008090405.png)
+  ![](/assets/QQ截图20161008090405.png)
 
+#### CentOS上安装lsb_release命令
 
