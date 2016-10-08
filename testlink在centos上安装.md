@@ -63,6 +63,8 @@ Policy from config file:        targeted
 rpm -Uvh http://mirrors.ustc.edu.cn/fedora/epel/6/x86_64/epel-release-6-8.noarch.rpm
 rpm -Uvh http://rpms.famillecollet.com/enterprise/remi-release-6.rpm
 ```
+使用yum list命令查看可安装的包(Packege)。
+`yum list --enablerepo=remi --enablerepo=remi-php56 | grep php`
 
 ##### 3、yum源安装好了，下一步配置PHP5.6
 ```
