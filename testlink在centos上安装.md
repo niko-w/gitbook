@@ -155,16 +155,21 @@ Bye
  $tlCfg->default_language = 'zh_CN';           修改
  $tlCfg->config_check_warning_mode = 'SILENT'; 修改
 ```
-     若上面两个路径没有改动，新建这两个路径：
-     cd /var
-     mkdir testlink
-     cd testlink
-     mkdir logs
-     mkdir upload_area
-     修改这两个目录的权限    chmod 777 logs
-                             chmod 777 upload_area
-     cd ..
-     chmod -R 777 testlink
+* 若上面两个路径没有改动，新建这两个路径：
+``` 
+cd /var
+mkdir testlink
+cd testlink
+mkdir logs
+mkdir upload_area
+```
+* 修改这两个目录的权限   
+```
+chmod 777 logs
+chmod 777 upload_area
+cd ..
+chmod -R 777 testlink
+```
      重新启动apache服务：service httpd restart
     
      安装testlink
