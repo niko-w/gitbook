@@ -29,4 +29,6 @@ Mode from config file:          enforcing
 Policy version:                 24
 Policy from config file:        targeted
 ```
+2、如果要永久关闭，可以修改配置文件/etc/selinux/config，将SELINU置为disabled。
+
 
