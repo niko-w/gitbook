@@ -132,4 +132,6 @@ Bye
 * 解压phpmyadmin
 `tar -zxvf phpMyAdmin-3.5.7-all-languages.tar`
 * 将解压后的文件夹改名为phpMyAdmin
-* 将
+* 将PHPMyAdmin拷贝到文件夹`/var/www/html`下
+* 进入到phpMyAdmin文件夹下，执行下列命令
+`cp config.sample.inc.php config.inc.php  `
