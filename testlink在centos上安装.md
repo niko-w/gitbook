@@ -13,10 +13,12 @@
   Mode from config file:          enforcing
   Policy version:                 24
   Policy from config file:        targeted
-```
+  ```
+
 
 1、临时关闭可以执行`setenforce 0`
 此时状态入下：
+
 ```
 [root@localhost niko]# setenforce 0
 [root@localhost niko]# sestatus
@@ -26,6 +28,5 @@ Current mode:                   permissive
 Mode from config file:          enforcing
 Policy version:                 24
 Policy from config file:        targeted
-
 ```
 
