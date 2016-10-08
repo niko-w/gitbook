@@ -129,12 +129,15 @@ Bye
 * 由于本系统上安装有MariaDB,所以安装mysql时不成功
 
 ##### 5、安装phpMyAdmin
+
 * 解压phpmyadmin
-`tar -zxvf phpMyAdmin-3.5.7-all-languages.tar`
+  `tar -zxvf phpMyAdmin-3.5.7-all-languages.tar`
 * 将解压后的文件夹改名为phpMyAdmin
 * 将phpMyAdmin拷贝到文件夹`/var/www/html`下
-`[root@localhost phpmyadmin]# cp -r phpMyAdmin /var/www/html/`
+  `[root@localhost phpmyadmin]# cp -r phpMyAdmin /var/www/html/`
 * 进入到phpMyAdmin文件夹下，执行下列命令
-`[root@localhost phpmyadmin]# cp config.sample.inc.php config.inc.php  `
+  `[root@localhost phpmyadmin]# cp config.sample.inc.php config.inc.php`
 * 修改html文件的权限
-`[root@localhost phpmyadmin]# chmod 777 /var/www/html/`
+  `[root@localhost phpmyadmin]# chmod 777 /var/www/html/`
+* 在浏览器中输入 http://192.168.27.142/phpMyAdmin/
+
