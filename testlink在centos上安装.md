@@ -148,4 +148,27 @@ Bye
   `[root@localhost testlink]# tar -zxvf testlink-1.9.14.tar.gz`
 * 将testLink文件夹拷贝到`/var/www/html`文件夹下
   `[root@localhost testlink]# cp -r testlink-1.9.14 /var/www/html/`
+* 修改testlink目录下config.inc.php文件中的内容
+``` 
+ $g_repositoryPath = '/var/testlink/upload_area/';      该路径可默认
+ $tlCfg->log_path = '/var/testlink/logs/';              该路径可默认
+ $tlCfg->default_language = 'zh_CN';           修改
+ $tlCfg->config_check_warning_mode = 'SILENT'; 修改
+```
+     若上面两个路径没有改动，新建这两个路径：
+     cd /var
+     mkdir testlink
+     cd testlink
+     mkdir logs
+     mkdir upload_area
+     修改这两个目录的权限    chmod 777 logs
+                             chmod 777 upload_area
+     cd ..
+     chmod -R 777 testlink
+     重新启动apache服务：service httpd restart
+    
+     安装testlink
+     http://127.0.0.1/testlink    进入testlink安装页面，点击new installation，
+     设置数据库账号密码(账号root,密码默认情况为空)
+     设置操作testlink数据库的账号和密码(账号为admin，密码为admin)
 
