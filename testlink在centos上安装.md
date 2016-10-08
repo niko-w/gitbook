@@ -63,10 +63,23 @@ Policy from config file:        targeted
 rpm -Uvh http://mirrors.ustc.edu.cn/fedora/epel/6/x86_64/epel-release-6-8.noarch.rpm
 rpm -Uvh http://rpms.famillecollet.com/enterprise/remi-release-6.rpm
 ```
-使用yum list命令查看可安装的包(Packege)。
+
+使用yum list命令查看可安装的包\(Packege\)。
 `yum list --enablerepo=remi --enablerepo=remi-php56 | grep php`
 
 ##### 3、yum源安装好了，下一步配置PHP5.6
+
 ```
 yum install --enablerepo=remi --enablerepo=remi-php56 php php-opcache php-devel php-mbstring php-mcrypt php-mysqlnd php-phpunit-PHPUnit php-pecl-xdebug php-pecl-xhprof
+```
+##### 4、查看php版本
+```
+[root@localhost niko]# php -v
+PHP 5.6.26 (cli) (built: Sep 15 2016 14:57:05) 
+Copyright (c) 1997-2016 The PHP Group
+Zend Engine v2.6.0, Copyright (c) 1998-2016 Zend Technologies
+    with Zend OPcache v7.0.6-dev, Copyright (c) 1999-2016, by Zend Technologies
+    with Xdebug v2.4.1, Copyright (c) 2002-2016, by Derick Rethans
+[root@localhost niko]# 
+
 ```
