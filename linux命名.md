@@ -18,3 +18,12 @@ File 指定操作的目标文件名称
 上述命令中，都涉及到number，假设不指定，默认显示10行。Number前面可使用正负号，表示该偏移从顶部还是从尾部開始计算。
 tail可运行文件一般在\/usr\/bin\/以下。
 
+#### 查看Linux系统内核信息
+* 显示电脑及操作系统相关信息
+`uname -a`
+* 显示正在运行的内核版本
+`cat /proc/version`
+* 显示发行版本信息
+`cat /etc/issue`
+* 适用于所有的linux，包括Redhat、SuSE、Debian等发行版，但是在debian下要安装lsb
+`lsb_release -a`

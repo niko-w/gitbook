@@ -12,6 +12,7 @@
         * [TestLink安装](testlink安装.md)
         * [TestLink与JIRA集成](testlink与jira集成.md)
         * [其他测试管理工具](其他测试管理工具.md)
+        * [TestLink在ubuntu上安装](testlink在ubuntu上安装.md)
     * [Git](git.md)
         * [Git操作](git操作.md)
     * [Linux](linux命令.md)
