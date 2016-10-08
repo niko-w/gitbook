@@ -72,7 +72,9 @@ rpm -Uvh http://rpms.famillecollet.com/enterprise/remi-release-6.rpm
 ```
 yum install --enablerepo=remi --enablerepo=remi-php56 php php-opcache php-devel php-mbstring php-mcrypt php-mysqlnd php-phpunit-PHPUnit php-pecl-xdebug php-pecl-xhprof
 ```
+
 ##### 4、查看php版本
+
 ```
 [root@localhost niko]# php -v
 PHP 5.6.26 (cli) (built: Sep 15 2016 14:57:05) 
@@ -83,3 +85,44 @@ Zend Engine v2.6.0, Copyright (c) 1998-2016 Zend Technologies
 [root@localhost niko]# 
 
 ```
+
+##### 5、安装mysql
+
+* 查看是否安装了mysql,没有则安装
+
+```
+[root@localhost niko]# rpm -qa|grep mysql
+php-mysqlnd-5.6.26-1.el6.remi.x86_64
+[root@localhost niko]# yum -y install mysql-server mysql-client
+Loaded plugins: fastestmirror, refresh-packagekit, security
+Setting up Install Process
+Loading mirror speeds from cached hostfile
+ * base: centos.ustc.edu.cn
+ * epel: ftp.riken.jp
+ * extras: centos.ustc.edu.cn
+ * remi-safe: mirrors.tuna.tsinghua.edu.cn
+ * updates: centos.ustc.edu.cn
+Package mysql-server-5.1.73-7.el6.x86_64 is obsoleted by MariaDB-server-10.1.16-1.el6.x86_64 which is already installed
+Package MariaDB-client-10.1.16-1.el6.x86_64 already installed and latest version
+Nothing to do
+[root@localhost niko]# rpm -qa|grep mariadb
+[root@localhost niko]# rpm -qa|grep MariaDB
+MariaDB-compat-10.1.16-1.el6.x86_64
+MariaDB-server-10.1.16-1.el6.x86_64
+MariaDB-devel-10.1.16-1.el6.x86_64
+MariaDB-common-10.1.16-1.el6.x86_64
+MariaDB-client-10.1.16-1.el6.x86_64
+[root@localhost niko]# mysql -uroot -proot
+Welcome to the MariaDB monitor.  Commands end with ; or \g.
+Your MariaDB connection id is 4
+Server version: 10.1.16-MariaDB MariaDB Server
+
+Copyright (c) 2000, 2016, Oracle, MariaDB Corporation Ab and others.
+
+Type 'help;' or '\h' for help. Type '\c' to clear the current input statement.
+
+MariaDB [(none)]> exit
+Bye
+
+```
+
