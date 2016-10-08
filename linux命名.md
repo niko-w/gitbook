@@ -7,7 +7,9 @@
 ##### 命令格式
 
 `tail [ -f ] [ -c Number | -n Number | -m Number | -b Number | -k Number ] [ File ]`
+
 ###### 参数解释：
+
 -f 该参数用于监视File文件增长。
 -c Number 从 Number 字节位置读取指定文件
 -n Number 从 Number 行位置读取指定文件。
@@ -19,11 +21,15 @@ File 指定操作的目标文件名称
 tail可运行文件一般在\/usr\/bin\/以下。
 
 #### 查看Linux系统内核信息
+
 * 显示电脑及操作系统相关信息
-`uname -a`
+  `uname -a`
 * 显示正在运行的内核版本
-`cat /proc/version`
+  `cat /proc/version`
 * 显示发行版本信息
-`cat /etc/issue`
+  `cat /etc/issue`
 * 适用于所有的linux，包括Redhat、SuSE、Debian等发行版，但是在debian下要安装lsb
-`lsb_release -a`
+  `lsb_release -a`
+![](/assets/QQ截图20161008090405.png)
+
+
