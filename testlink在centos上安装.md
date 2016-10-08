@@ -58,7 +58,13 @@ Policy from config file:        targeted
 
 
 ##### 2、追加CentOS 6.5的epel及remi源
+
 ```
 rpm -Uvh http://mirrors.ustc.edu.cn/fedora/epel/6/x86_64/epel-release-6-8.noarch.rpm
 rpm -Uvh http://rpms.famillecollet.com/enterprise/remi-release-6.rpm
+```
+
+##### 3、yum源安装好了，下一步配置PHP5.6
+```
+yum install --enablerepo=remi --enablerepo=remi-php56 php php-opcache php-devel php-mbstring php-mcrypt php-mysqlnd php-phpunit-PHPUnit php-pecl-xdebug php-pecl-xhprof
 ```
