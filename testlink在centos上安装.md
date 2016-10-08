@@ -141,3 +141,5 @@ Bye
   `[root@localhost phpmyadmin]# chmod 777 /var/www/html/`
 * 在浏览器中输入 http://192.168.27.142/phpMyAdmin/
 ![](/assets/QQ截图20161008105136.png)
+
+##### 6、
