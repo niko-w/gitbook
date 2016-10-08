@@ -142,5 +142,6 @@ Bye
 * 在浏览器中输入 [http:\/\/192.168.27.142\/phpMyAdmin\/](http://192.168.27.142/phpMyAdmin/)
   ![](/assets/QQ截图20161008105136.png)
 
-##### 6、
+##### 6、安装testLink
+
 
