@@ -133,7 +133,8 @@ Bye
 `tar -zxvf phpMyAdmin-3.5.7-all-languages.tar`
 * 将解压后的文件夹改名为phpMyAdmin
 * 将phpMyAdmin拷贝到文件夹`/var/www/html`下
+`[root@localhost phpmyadmin]# cp -r phpMyAdmin /var/www/html/`
 * 进入到phpMyAdmin文件夹下，执行下列命令
-`cp config.sample.inc.php config.inc.php  `
+`[root@localhost phpmyadmin]# cp config.sample.inc.php config.inc.php  `
 * 修改html文件的权限
 `chmod 777 /var/www/html/`
