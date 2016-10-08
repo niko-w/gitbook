@@ -143,5 +143,9 @@ Bye
   ![](/assets/QQ截图20161008105136.png)
 
 ##### 6、安装testLink
-
+* 解压testLink
+`[root@localhost testlink]# tar -zxvf testlink-1.9.14.tar.gz`
+* 将testLink文件夹拷贝到`/var/www/html`文件夹下
+`[root@localhost testlink]# cp -r testlink-1.9.14 /var/www/html/
+`
 
