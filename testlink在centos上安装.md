@@ -49,4 +49,4 @@ Starting httpd: httpd: Could not reliably determine the server's fully qualified
                                                            [  OK  ]
 
 ```
-在浏览器中输入http://虚拟机IP/能显示Apahce的欢迎界面
+在浏览器中输入http://虚拟机IP/ 能显示Apahce的欢迎界面
