@@ -8,7 +8,7 @@
   ```
   [root@localhost niko]# sestatus
   SELinux status:                 enabled
-  SELinuxfs mount:                \/selinux
+  SELinuxfs mount:                /selinux
   Current mode:                   enforcing
   Mode from config file:          enforcing
   Policy version:                 24
@@ -21,7 +21,7 @@
 [root@localhost niko]# setenforce 0
 [root@localhost niko]# sestatus
 SELinux status:                 enabled
-SELinuxfs mount:                \/selinux
+SELinuxfs mount:                /selinux
 Current mode:                   permissive
 Mode from config file:          enforcing
 Policy version:                 24
