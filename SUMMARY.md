@@ -36,6 +36,9 @@
 * [dbproxy](dbproxy.md)
     * [功能](功能.md)
         * [增量索引](增量索引.md)
+    * [dbproxy出现的问题](dbproxy出现的问题.md)
+        * [管理平台](管理平台.md)
+    * [版本变化](版本变化.md)
 * [Maven](maven.md)
     * [命令](命令.md)
 
