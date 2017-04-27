@@ -8,6 +8,11 @@ git branch hotfix-1.2.2_2 1.2.2_1 //git branch <new_branch_name> <tag_name>
 git checkout hotfix-1.2.2_2  //切换到新分支上
 git push origin hotfix-1.2.2_2  //将本地创建的分支推送到远程上，现在远程上也会有新的分支了
 
+简单步骤：
+git origin fetch
+git checkout -b hotfix-1.2.2_2 1.2.2_1
+git push origin hotfix-1.2.2_1
+
 ```
 
 ### 打标签tag
