@@ -18,6 +18,7 @@
         * [Git操作](git操作.md)
             * [创建分支](创建分支.md)
             * [合并冲突的](合并冲突的.md)
+            * [Git版本回退](git版本回退.md)
     * [Linux](linux命令.md)
         * [linux命令](linux命名.md)
             * [硬件相关](硬件相关.md)
